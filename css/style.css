@@ -1,15 +1,18 @@
 body {
-  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
   text-align: center;
+  background-color: wheat;
 }
 
 h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
 }
 
 .timer {
   display: flex;
   justify-content: center;
+  margin-bottom: 25px;
 }
 
 .field {
@@ -17,13 +20,15 @@ h1 {
 }
 
 .value {
-  color: pink;
+  border: 5px solid yellow;
+  padding: 5px;
+  color: grey;
   margin: 0 20px;
   font-size: 30px;
 }
 
 .label {
-  color: magenta;
+  color: grey;
   font-size: 30px;
   border-radius: 3px sold greenyellow;
 }
